@@ -45,12 +45,12 @@ const pic = [
 const prevButton = document.getElementById('#left');
 const nextButton = document.getElementById('#right');
 const slideContainer = document.getElementsByClassName('.container');
-const slideText = document.querySelector('p')
-const img = document.querySelector('img')
+const slideText = document.querySelector('p');
+const img = document.querySelector('img');
 
-console.log(pic.image)
+console.log(pic[0].image)
 
 
-// img.src += `${images.image}`
+img.src += `${pic[0].image}`
 
 // nextButton.addEventListener('click')
